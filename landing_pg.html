@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Roof Solutions</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            color: #faf5f5;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #000000;
+            color: #fff;
+            text-align: center;
+            padding: 2em 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 1em 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #138d75;
+        }
+
+        section {
+            padding: 100px 0;
+            text-align: center;
+        }
+        #home {
+    background-image: url('image1.jpg');
+    background-size: cover;
+    background-position: center;
+    color:#138d75;
+}
+
+        #benefits {
+    background-color: #5d6765;
+    color: #ffffff; 
+}
+
+#benefits .section-content {
+    color:#efefef; 
+}
+
+        #contact {
+            background-image: url('image4.jpg'); 
+            background-size: cover;
+            background-position: center;
+        }
+        .scroll-down {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #000000;
+        color: #f7f7f7;
+        padding: 15px 30px;
+        font-size: 1.2em;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+        display: inline-block;
+    }
+
+    .scroll-down-button:hover {
+        background-color: #ffffff;
+    }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .section-heading {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .section-content {
+            font-size: 1.2em;
+            color: #555;
+        }
+        form {
+  --bg-light: #efefef;
+  --bg-dark: #707070;
+  --clr: #58BC82;
+  --clr-alpha: #9c9c9c60;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.form .input-span {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+form input[type="email"],
+form input[type="password"] {
+  border-radius: 0.5rem;
+  padding: 1rem 0.75rem;
+  width: 100%;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--clr-alpha);
+  outline: 2px solid var(--bg-dark);
+}
+
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+  outline: 2px solid var(--clr);
+}
+
+.label {
+  align-self: flex-start;
+  color: var(--clr);
+  font-weight: 600;
+}
+
+form .submit {
+  padding: 1rem 0.75rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 3rem;
+  background-color: var(--bg-dark);
+  color: var(--bg-light);
+  border: none;
+  cursor: pointer;
+  transition: all 300ms;
+  font-weight: 600;
+  font-size: .9rem;
+}
+
+form .submit:hover {
+  background-color: var(--clr);
+  color: var(--bg-dark);
+}
+
+.span {
+  text-decoration: none;
+  color: var(--bg-dark);
+}
+
+.span a {
+  color: var(--clr);
+}
+
+
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            text-decoration: none;
+            color: #fff;
+            background-color: #e74c3c;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Solar Roof Solutions</h1>
+        <p>Harvesting Solar Energy for a Sustainable Future</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#benefits">Benefits</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <div class="content">
+            <div class="section-heading">Innovative Solar Roof Solutions</div>
+            <div class="section-content">
+                <p>Embark on energy independence with our innovative solar solutions. Our systems are efficient, effortlessly installed, and seamlessly integrate into your home, fostering a sustainable and eco-friendly lifestyle. Experience the freedom of generating clean energy for a brighter, eco-conscious future.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="benefits">
+        <div class="content">
+            <div class="section-heading">Key Benefits</div>
+            <div class="section-content">
+                <p>Discover the advantages of our solar roof technology, including reduced energy costs, environmental sustainability, and increased property value.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="content">
+            <div class="section-heading">Contact Us</div>
+            <div class="section-content">
+                
+                <form class="form">
+                    <span class="input-span">
+                    <label for="email" class="label">Email</label>
+                    <input type="email" name="email" id="email"></span>
+                    <span class="input-span">
+                    <label for="password" class="label">Password</label>
+                    <input type="password" name="password" id="password"></span>
+                    <span class="span"><a href="#">Forgot password?</a></span>
+                    <input class="submit" type="submit" value="Log in">
+                    <span class="span">Don't have an account? <a href="#">Sign up</a></span>
+                  </form>
+                  </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <div class="scroll-down">
+        <a href="#home">&#9660; Scroll down</a>
+    </div>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
